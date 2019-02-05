@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>
+    Tengeza Studios
+    </title>
+    
+    
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="email.css">   
+        
+    <!-- for unminified version add this -->
+<link rel="stylesheet" type="text/css" href="fonts/fonts.min.css" />
+<!-- for minified version add this -->
+<link rel="stylesheet" type="text/css" href="fonts/fonts.css" />
+    </head>
+    
+    <body>
+    <div class="parent-container">
+        <a href="index.html" >
+        <img id="close"  src="images/close.png"/>
+        </a>
+        
+        <p id="email-title">
+        Please enter your email <br/>
+address.
+        </p>
+        
+         <form id="email-block" action="https://glasipoa.us17.list-manage.com/subscribe/post" method="POST">
+                 <input type="hidden" name="u" value="b9fffe881e0e1d07cd66debaf">
+    <input type="hidden" name="id" value="a81c51a640">
+    
+                <input id="text-field" placeholder="Email address" type="email" name="MERGE0" required/> 
+                 <input value="OK" type="submit" id="submit" />
+               </form>
+        </div>
+        
+        <script>
+               let emailbtn = document.getElementById('submit')
+            
+            
+            emailbtn.addEventListener('mouseover', () =>{
+                emailbtn.style.background='#000000'
+                emailbtn.style.cursor='pointer'
+            })
+            
+            emailbtn.addEventListener('mouseout', () =>{
+                emailbtn.style.background='#343434'
+            })
+            
+          
+        </script>
+    </body>
+</html>
